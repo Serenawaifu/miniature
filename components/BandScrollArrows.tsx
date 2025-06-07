@@ -1,4 +1,3 @@
-// /components/BandScrollArrows.tsx
 'use client';
 import { useRef } from 'react';
 
