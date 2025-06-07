@@ -1,20 +1,43 @@
-/app
-  /api
-    /auth/[...nextauth]/route.ts
-    /rate-limiter.ts
-    /protected/route.ts
-  /auth
-    /login/page.tsx
-    /signup/page.tsx
-/components
-  /Header.tsx
-  /ConnectWalletButton.tsx
-  /AuthButtons.tsx
-  /HoneypotField.tsx
-/lib
-  /auth.ts
-  /prisma.ts
-  /rateLimiter.ts
-/prisma
-  schema.prisma
-.env
+/app/
+  ├── api/
+  │   ├── health/
+  │   │   └── route.ts
+  ├── anime/
+  │   └── [slug]/
+  │       └── episode/
+  │           └── [epId]/
+  │               └── page.tsx
+  ├── layout.tsx
+  └── page.tsx
+/components/
+  ├── BandScrollArrows.tsx
+  ├── Loader.tsx
+  ├── Tooltip.tsx
+  ├── ThemeSwitcher.tsx
+  ├── ProductCard.tsx
+  └── Header.tsx
+/context/
+  └── ThemeContext.tsx
+/public/
+  ├── theme-previews/
+  ├── marketplace/
+  └── neko-cat.svg
+/styles/
+  ├── globals.css
+  └── themes/
+      ├── cozyCafe.ts
+      ├── cyberpunkNeon.ts
+      ├── minimalLight.ts
+      ├── retroPixel.ts
+      └── sakuraBlossom.ts
+/tests/
+  └── api-health.test.ts
+/vercel.json
+/next.config.js
+/.env.example
+/.gitignore
+/.eslintrc.js
+/.prettierrc
+/package.json
+/README.md
+/render.yaml
