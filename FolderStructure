@@ -1,20 +1,20 @@
 /app
-  /layout.tsx
-  /page.tsx
+  /api
+    /auth/[...nextauth]/route.ts
+    /rate-limiter.ts
+    /protected/route.ts
+  /auth
+    /login/page.tsx
+    /signup/page.tsx
 /components
   /Header.tsx
-  /Logo.tsx
-  /SearchBar.tsx
-  /DarkModeToggle.tsx
-  /SakuraBackground.tsx
-  /Band.tsx
-  /CardPlaceholder.tsx
+  /ConnectWalletButton.tsx
+  /AuthButtons.tsx
+  /HoneypotField.tsx
 /lib
-  /theme.ts
-/styles
-  /globals.css
-/utils
-  /classnames.ts
-/public
-  /logo.png
-  /sakura-petal.svg
+  /auth.ts
+  /prisma.ts
+  /rateLimiter.ts
+/prisma
+  schema.prisma
+.env
