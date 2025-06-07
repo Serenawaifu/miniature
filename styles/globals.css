@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sakura petal animation keyframes */
+@keyframes sakura-fall {
+  0% {
+    transform: translateY(-10%) rotateZ(0deg) scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(110vh) rotateZ(360deg) scale(0.8);
+    opacity: 0.2;
+  }
+}
