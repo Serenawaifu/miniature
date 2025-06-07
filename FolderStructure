@@ -1,0 +1,20 @@
+/app
+  /layout.tsx
+  /page.tsx
+/components
+  /Header.tsx
+  /Logo.tsx
+  /SearchBar.tsx
+  /DarkModeToggle.tsx
+  /SakuraBackground.tsx
+  /Band.tsx
+  /CardPlaceholder.tsx
+/lib
+  /theme.ts
+/styles
+  /globals.css
+/utils
+  /classnames.ts
+/public
+  /logo.png
+  /sakura-petal.svg
