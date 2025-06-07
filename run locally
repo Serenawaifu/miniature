@@ -1,0 +1,6 @@
+npx create-next-app@latest sakura-anime --typescript
+# Replace the generated files with the above structure/code
+npm install tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+# Copy the tailwind.config.js and styles/globals.css as above
+npm run dev
